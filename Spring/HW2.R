@@ -1,5 +1,4 @@
 # HW2
-# b05703029 陳怡蓁
 
 # 1.
 # (1)
@@ -7,8 +6,8 @@ HWdata <- read.csv("C:\\Users\\ASUS\\Downloads\\HW2\\HWdata.csv")
 dim ( HWdata )
 # (2)
 sorted_Old <- HWdata[order(HWdata$Old),]
-head( sorted_Old ) #前六低
-tail( sorted_Old ) #前六高
+head( sorted_Old ) #竄e瞻罈禮C
+tail( sorted_Old ) #竄e瞻罈簞穠
 # (3)
 attach( HWdata)
 length(which (Old>10 | Life<50) )
