@@ -1,5 +1,3 @@
-# b05703029 ≥Ø©…„∏
-
 #1
 set.seed(100)
 height <- round(rnorm(50,170,15),2)
